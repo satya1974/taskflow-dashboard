@@ -15,8 +15,8 @@ export default function Navbar({ userName = "John Doe", onMenuClick = () => {} }
     const fetchSearchData = async () => {
       try {
         const [projectsRes, tasksRes] = await Promise.all([
-          fetch("http://localhost:5000/projects"),
-          fetch("http://localhost:5000/tasks"),
+          fetch("https://taskflow-dashboard.vercel.app/projects")
+          fetch("https://taskflow-dasboard.vercel.app/tasks")
         ])
         const projects = await projectsRes.json()
         const tasks = await tasksRes.json()
