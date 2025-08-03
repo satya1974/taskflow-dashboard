@@ -1,0 +1,157 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@company.com",
+      "role": "Owner",
+      "avatar": "JD",
+      "joinedAt": "2023-01-15",
+      "status": "Active",
+      "lastActive": "2 hours ago"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@company.com",
+      "role": "Editor",
+      "avatar": "JS",
+      "joinedAt": "2023-02-20",
+      "status": "Active",
+      "lastActive": "1 day ago"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "email": "mike.johnson@company.com",
+      "role": "Editor",
+      "avatar": "MJ",
+      "joinedAt": "2023-03-10",
+      "status": "Active",
+      "lastActive": "3 hours ago"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@company.com",
+      "role": "Viewer",
+      "avatar": "SW",
+      "joinedAt": "2023-04-05",
+      "status": "Inactive",
+      "lastActive": "1 week ago"
+    },
+    {
+      "id": 5,
+      "name": "Tom Brown",
+      "email": "tom.brown@company.com",
+      "role": "Editor",
+      "avatar": "TB",
+      "joinedAt": "2023-05-12",
+      "status": "Active",
+      "lastActive": "5 minutes ago"
+    },
+    {
+      "id": 1754238314264,
+      "name": "satya",
+      "email": "satya@gmail.com",
+      "role": "Viewer",
+      "avatar": "SA",
+      "joinedAt": "2025-08-03",
+      "status": "Active",
+      "lastActive": "Never"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "description": "Complete overhaul of the company website.",
+      "status": "In Progress",
+      "progress": 70,
+      "color": "purple",
+      "deadline": "2025-08-15",
+      "teamMembers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mobile App",
+      "description": "Develop native app for iOS and Android.",
+      "status": "Planning",
+      "progress": 25,
+      "color": "blue",
+      "deadline": "2025-08-30",
+      "teamMembers": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dashboard v2",
+      "description": "Upgrade dashboard with real-time analytics.",
+      "status": "Completed",
+      "progress": 100,
+      "color": "green",
+      "deadline": "2025-07-20",
+      "teamMembers": [
+        1,
+        4
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design System Update",
+      "description": "Revamp component library and styles.",
+      "projectId": 1,
+      "status": "In Progress",
+      "deadline": "2025-08-05",
+      "priority": "high",
+      "assignedTo": 2
+    },
+    {
+      "id": 2,
+      "title": "API Integration",
+      "description": "Connect frontend to backend services.",
+      "projectId": 2,
+      "status": "Completed",
+      "deadline": "2025-08-08",
+      "priority": "medium",
+      "assignedTo": 5
+    },
+    {
+      "id": 3,
+      "title": "User Testing",
+      "description": "Conduct usability tests and gather feedback.",
+      "projectId": 3,
+      "status": "Completed",
+      "deadline": "2025-07-18",
+      "priority": "low",
+      "assignedTo": 1
+    },
+    {
+      "id": 4,
+      "title": "Database Migration",
+      "description": "Move legacy DB to new cloud instance.",
+      "projectId": 1,
+      "status": "Pending",
+      "deadline": "2025-08-10",
+      "priority": "high",
+      "assignedTo": 3
+    },
+    {
+      "id": 5,
+      "title": "Authentication Setup",
+      "description": "Configure Clerk for user auth.",
+      "projectId": 2,
+      "status": "In Progress",
+      "deadline": "2025-08-12",
+      "priority": "medium",
+      "assignedTo": 4
+    }
+  ]
+}
